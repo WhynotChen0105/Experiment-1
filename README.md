@@ -74,7 +74,7 @@ Download this github then click the "Open" and select the folder, or you can cre
 
 ### Create a virtual environment 
 
-Find the Anaconda Powershell Prompt from the "Win" which on the left-botttm of  desktop:
+Find the Anaconda Powershell Prompt from the "Win" which on the left-botttm of  desktop or you can directly search the Anaconda Powershell Prompt by pressing "Win+S":
 
 ![Alt text](src/image16.png)
 
@@ -82,7 +82,7 @@ Open the Anaconda Powershell Prompt:
 
 ![Alt text](src/image-17.png)
 
-Input the command following to create a virtual environment with python 3.7 (don't use the VPN):
+Input the command following to create a virtual environment named "experiment1" with python 3.7 (don't use the VPN):
 
 ```shell 
 conda create -n experiment1 python=3.7 -y
