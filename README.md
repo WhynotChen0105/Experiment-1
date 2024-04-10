@@ -68,7 +68,7 @@ Select the "Don't Send".
 
 ![Alt text](src/image-14.png)
 
-Click the "Open" and select this folder.
+Download this github then click the "Open" and select the folder, or you can create a new project and code. 
 
 ![Alt text](src/image-15.png)
 
