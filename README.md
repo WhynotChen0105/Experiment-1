@@ -6,7 +6,9 @@
 You can download the anaconda ( an open-source package and environment management system ) by clicking [here](https://www.anaconda.com/download/) or visiting the official website https://www.anaconda.com/download/.
 
 Click the <a>Download</a> as the picture to download the anaconda.
+
 ![Alt text](src/image.png)
+
 ### Install the anaconda:
 Click the Next.
 
@@ -33,6 +35,7 @@ Wait until the anaconda is installed completely.
 ### Download and insatll Pycharm
 
 Visit the Jetbrains' official website: https://www.jetbrains.com/pycharm/download/?section=windows. Find the Pycharm Community Edition not the Professional and download it. Or you can just click [here](https://download-cdn.jetbrains.com/python/pycharm-community-2024.1.exe).
+
 ![Alt text](src/image-7.png)
 
 Install the Pycharm (reference from [CSDN](https://blog.csdn.net/qq_44809707/article/details/122501118) ):
@@ -91,11 +94,13 @@ pip3 install torch torchvision
 pip3 install scipy
 ```
 ![Alt text](src/image-19.png)
+
 In this experiment we use the CPU-Version torch, but if your computer have the GPU you can install the GPU-Version torch as the guide on the official [torch](https://pytorch.org/) website.
 
 ### Select the virtual environment as the main environment of Pycharm
 
 Click the left-top "Main-Menu" or use 'Alt+\'
+
 ![Alt text](src/image-20.png)
 
 Click the "Settings".
@@ -103,6 +108,7 @@ Click the "Settings".
 ![Alt text](src/image-21.png)
 
 In the Settings, we click the "Project: experiment 1" then click the "Python Interpreter".
+
 ![Alt text](src/image-22.png)
 
 On the right of the settings, click the Add Interpreter then click the "Add Local Interpreter".
