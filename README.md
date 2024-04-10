@@ -87,7 +87,7 @@ Input the command following to create a virtual environment with python 3.7 (don
 ```shell 
 conda create -n experiment1 python=3.7 -y
 ```
-Activate the virtual environment and install the torch and torchvision:
+Activate the virtual environment and install the torch, torchvision and scipy :
 ```shell
 conda activate experiment1
 pip3 install torch torchvision
