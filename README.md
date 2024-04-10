@@ -127,7 +127,7 @@ We choose the [Oxford 102 Flower](https://www.robots.ox.ac.uk/~vgg/data/flowers/
 
 Open the [train.py](./train.py) and we are going to code.
 
-import the module we need to use.
+import the modules we need to use.
 ```python
 import torch
 import torchvision
