@@ -99,7 +99,7 @@ In this experiment we use the CPU-Version torch, but if your computer have the G
 
 ### Select the virtual environment as the main environment of Pycharm
 
-Click the left-top "Main-Menu" or use 'Alt+\'
+Click the left-top "Main-Menu" or use 'Alt+\\'
 
 ![Alt text](src/image-20.png)
 
