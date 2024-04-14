@@ -95,7 +95,32 @@ pip3 install scipy
 ```
 ![Alt text](src/image-19.png)
 
-In this experiment we use the CPU-Version torch, but if your computer have the GPU you can install the GPU-Version torch as the guide on the official [torch](https://pytorch.org/) website.
+In this experiment we use the CPU-Version torch, but if your computer have the Nvidia GPU you can install the GPU-Version torch by replacing the `pip3 insatll torch torchvison` with the GPU-Version command. Next we will teach you how to find the GPU-Version install command for your computer.
+
+### Find the GPU-Version torch install command for your computer
+
+Find your CUDA version:
+
+Press the 'Win+R', then input 'cmd' and press the 'Enter' to open the cmd:
+
+ ![alt text](src/image-30.png)
+
+ Input 'nvidia-smi' in cmd, you can see you cuda version as following:
+
+![alt text](src/image-31.png)
+
+Please remember the cuda version. We will use it to install the torch-GPU now. 
+
+1 Open the [pytorch](https://pytorch.org/get-started/previous-versions/)'s official website : https://pytorch.org/get-started/previous-versions/ (maybe you need the VPN).
+
+2 Find the first install command whose cuda version is same to your computer. For example, if your cuda version is 11.6, you can find the command: (Notice: It must be the 'Wheel' not the 'Conda', and 'Linux and Windows' not the 'OSX' ! )
+
+![alt text](src/image-32.png)
+
+3 Copy the Command (in our example it is 'conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia')                              
+                                                                                                               
+4 Now you have find the command you need.
+
 
 ### Select the virtual environment as the main environment of Pycharm
 
