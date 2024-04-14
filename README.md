@@ -3,7 +3,7 @@
 ## Environment configuration
 
 ### Download the anaconda:
-You can download the anaconda ( an open-source package and environment management system ) by clicking [here](https://www.anaconda.com/download/) or visiting the official website https://www.anaconda.com/download/.
+You can download the anaconda ( an open-source package and environment management system ) by clicking [here](https://www.anaconda.com/download/success) or visiting the official website https://www.anaconda.com/download/success.
 
 Click the <a>Download</a> as the picture to download the anaconda.
 
